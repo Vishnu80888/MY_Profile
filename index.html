@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vishnu Mahendra Reddy L — Portfolio</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css"/>
+</head>
+
+
+<body data-theme="dark">
+
+<!-- ================= LOADER ================= -->
+<div id="loader">
+  <div class="loader-inner">
+    <div class="loader-hex-wrap">
+      <div class="hex-ring r1"></div>
+      <div class="hex-ring r2"></div>
+      <div class="hex-ring r3"></div>
+      <div class="loader-initials">VMR</div>
+    </div>
+    <div class="loader-text">LOADING PORTFOLIO</div>
+    <div class="loader-bar-wrap">
+      <div class="loader-bar"></div>
+    </div>
+  </div>
+</div>
+
+<!-- ================= CURSOR ================= -->
+<div id="cursor-dot"></div>
+<div id="cursor-ring"></div>
+
+<!-- ================= SCROLL BAR ================= -->
+<div id="scroll-progress"></div>
+
+<!-- ================= NAVBAR ================= -->
+<nav id="navbar">
+  <div class="nav-brand">
+    <span class="brand-bracket">[</span> VMR <span class="brand-bracket">]</span>
+  </div>
+
+  <div class="nav-links" id="navLinks">
+    <a href="#hero" class="nav-link">Home</a>
+    <a href="#about" class="nav-link">About</a>
+    <a href="#skills" class="nav-link">Skills</a>
+    <a href="#education" class="nav-link">Education</a>
+    <a href="#projects" class="nav-link">Projects</a>
+    <a href="#contact" class="nav-link">Contact</a>
+  </div>
+
+  <div class="nav-controls">
+    <button id="themeToggle">
+      <span class="theme-icon">☀</span>
+    </button>
+
+    <button class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ================= HERO ================= -->
+<section id="hero">
+  <div id="particles-js"></div>
+
+  <div class="hero-content">
+    <div class="hero-badge">
+      <span class="badge-pulse"></span> 
+    </div>
+
+    <h1 class="hero-name">
+      <span id="typedName"></span><span class="cursor-blink">|</span>
+    </h1>
+
+    <div class="hero-role">FULL STACK DEVELOPER</div>
+
+    <div class="hero-tagline" id="typedTagline"></div>
+
+   <div class="hero-cta">
+  <a href="#projects" class="btn btn-primary">
+    <span class="btn-glow"></span>
+    VIEW PROJECTS
+  </a>
+
+  <a href="#contact" class="btn btn-secondary">
+    CONTACT ME
+  </a>
+
+  <a href="C:\Users\user\Downloads\files\Vishnu Mahendra Reddy L. Resumepdf.pdf" class="btn btn-secondary" download>
+    DOWNLOAD RESUME
+  </a>
+</div>
+
+  <!-- GEO LOCATION SECTION (ADD ANYWHERE YOU WANT) -->
+<div class="geo-box">
+  <button id="getLocationBtn" class="btn btn-primary">
+    📍 Get My Location
+  </button>
+
+  <p id="locationStatus" style="margin-top:10px; color: var(--text-secondary);"></p>
+</div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section id="about" class="section reveal">
+  <div class="container about-grid">
+
+    <!-- ================= ABOUT VISUAL (FIXED PHOTO SECTION) ================= -->
+    <div class="about-visual">
+
+      <div class="avatar-wrap">
+
+        <!-- PROFILE PHOTO -->
+        <div class="avatar-center">
+          <img 
+            src="C:\Users\user\Downloads\files\Screenshot 2025-03-15 151831.jpg" 
+            alt="Vishnu Mahendra Reddy L"
+            class="profile-img"
+          />
+        </div>
+
+        <!-- ANIMATED RINGS -->
+        <div class="avatar-ring a-r1"></div>
+        <div class="avatar-ring a-r2"></div>
+
+      </div>
+
+      <!-- FLOAT BADGES -->
+      <div class="float-badges">
+        <div class="fb fb1">FULL STACK DEV</div>
+        <div class="fb fb2">CYBER SECURITY</div>
+        <div class="fb fb3">AI ENTHUSIAST</div>
+      </div>
+
+    </div>
+
+    <!-- ================= ABOUT TEXT ================= -->
+    <div class="about-text">
+      <p class="about-intro">
+        Passionate Problem Solver | Cybersecurity & AI Enthusiast
+      </p>
+
+      <p>
+        I am <strong>Vishnu Mahendra Reddy L</strong>, a Computer Science student focused on
+        <em>Full Stack Development, Cybersecurity, and AI technologies</em>.
+      </p>
+
+      <div class="pillars">
+        <div class="pillar"><span class="pillar-icon">⚡</span>FAST LEARNER</div>
+        <div class="pillar"><span class="pillar-icon">🧠</span>PROBLEM SOLVER</div>
+        <div class="pillar"><span class="pillar-icon">🚀</span>INNOVATOR</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= EDUCATION ================= -->
+<section id="education" class="section section-alt reveal">
+  <div class="container">
+
+    <div class="section-header">
+      <span class="section-tag">EDUCATION</span>
+      <h2 class="section-title">ACADEMIC JOURNEY</h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="timeline">
+
+      <div class="tl-item">
+        <div class="tl-dot blue-dot-solid"></div>
+        <div class="tl-line"></div>
+
+        <div class="tl-card">
+          <span class="tl-badge be-badge">B.E</span>
+          <h3>Computer Science Engineering</h3>
+          <div class="tl-org">Jain Institute of Technology, Davangere</div>
+          <div class="tl-meta">
+            <span class="tl-year">2022 - 2026</span>
+            <span class="tl-score">CGPA: 8.5+</span>
+          </div>
+          <p>Focused on Full Stack Development, AI, and Cybersecurity.</p>
+          <div class="tl-tags">
+            <span>DSA</span>
+            <span>MERN</span>
+            <span>AI/ML</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-dot purple-dot-solid"></div>
+
+        <div class="tl-card">
+          <span class="tl-badge pu-badge">PUC</span>
+          <h3>Pre-University Education</h3>
+          <div class="tl-org">State Board</div>
+          <div class="tl-meta">
+            <span class="tl-year">2020 - 2022</span>
+            <span class="tl-score">82%</span>
+          </div>
+          <p>Science stream with strong foundation in Mathematics & Physics.</p>
+          <div class="tl-tags">
+            <span>Math</span>
+            <span>Physics</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ================= SKILLS ================= -->
+<section id="skills" class="section section-alt reveal">
+  <div class="container">
+
+    <div class="section-header">
+      <span class="section-tag">SKILLS</span>
+      <h2 class="section-title">TECHNICAL EXPERTISE</h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="skills-grid">
+
+      <div class="skill-cat">
+        <div class="scat-title"><span class="cat-dot blue-dot"></span> FRONTEND</div>
+
+        <div class="skill-bars">
+          <div class="sk-label"><span>HTML/CSS</span><span>90%</span></div>
+          <div class="sk-track"><div class="sk-fill blue-fill" data-w="90"></div></div>
+
+          <div class="sk-label"><span>JavaScript</span><span>85%</span></div>
+          <div class="sk-track"><div class="sk-fill blue-fill" data-w="85"></div></div>
+        </div>
+      </div>
+
+      <div class="skill-cat">
+        <div class="scat-title"><span class="cat-dot purple-dot"></span> BACKEND</div>
+
+        <div class="skill-bars">
+          <div class="sk-label"><span>Node.js</span><span>80%</span></div>
+          <div class="sk-track"><div class="sk-fill purple-fill" data-w="80"></div></div>
+
+          <div class="sk-label"><span>Express</span><span>75%</span></div>
+          <div class="sk-track"><div class="sk-fill purple-fill" data-w="75"></div></div>
+        </div>
+      </div>
+
+      <div class="skill-cat">
+        <div class="scat-title"><span class="cat-dot cyan-dot"></span> OTHER</div>
+
+        <div class="chips">
+          <span class="chip">MongoDB</span>
+          <span class="chip">Git</span>
+          <span class="chip">Cybersecurity</span>
+          <span class="chip">AI/ML</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= PROJECTS ================= -->
+<section id="projects" class="section reveal">
+  <div class="container">
+
+    <div class="section-header">
+      <span class="section-tag">PROJECTS</span>
+      <h2 class="section-title">MY WORK</h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="projects-grid">
+
+      <div class="proj-card tilt-card">
+        <div class="proj-glow blue-glow"></div>
+        <div class="proj-num">01</div>
+        <h3>Pharmacy-Management-System</h3>
+        <p>A pharmacy managementsystem (PMS) is a specialized software designed to
+streamline and automate various pharmacy operations, including inventory
+management, prescription processing, billing, and patient record management. The
+"master" part of "pharmacy-management-system-master" likely refersto the core or
+primary version of such a system, often including all the essential features and
+functionalities for managing a pharmacy.</p>
+        <a class="proj-link" href="#">VIEW</a>
+        <div class="proj-shine"></div>
+      </div>
+
+      <div class="proj-card tilt-card">
+        <div class="proj-glow purple-glow"></div>
+        <div class="proj-num">02</div>
+        <h3>Credit Fraud Detection</h3>
+        <p>A credit card fraud detection project aimsto identify fraudulent credit card
+transactions using machine learning techniques. The project involves analyzing
+historicaltransaction data, identifying patternsindicative of fraud, and building a
+model to classify new transactions as either legitimate or fraudulent.</p>
+        <a class="proj-link" href="#">VIEW</a>
+        <div class="proj-shine"></div>
+      </div>
+
+      <div class="proj-card tilt-card">
+        <div class="proj-glow cyan-glow"></div>
+        <div class="proj-num">03</div>
+        <h3>Cyber Threat Intelligence Using HONEYPOTS</h3>
+        <p>A Honeypot is a cybersecurity mechanism designed to detect, deflect, or study
+cyber threats. A cyber threatrefersto any potential malicious activity or event that
+can harm digital systems, networks, or data. Cyber threats can come from
+individuals, groups, or automated systemsintending to steal, damage, or disrupt
+digital assets</p>
+        <a class="proj-link" href="#">VIEW</a>
+        <div class="proj-shine"></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+<!-- ================= CONTACT ================= -->
+<section id="contact" class="section section-alt reveal">
+  <div class="container contact-grid">
+
+    <div>
+      <h2 class="section-title">CONTACT ME</h2>
+      <p class="contact-intro">
+        Let's connect and build something amazing together.
+      </p>
+
+      <div class="contact-links">
+        <div class="contact-link">
+          <div class="cl-icon">📧</div>
+          <div>
+            <div class="cl-label">EMAIL</div>
+            <div class="cl-value">vishnumahendarreddy@gmail.com</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-form-wrap">
+      <form id="contactForm">
+
+        <div class="form-field">
+          <input id="f-name" type="text" placeholder=" " />
+          <label>Name</label>
+          <div class="fb-line"></div>
+          <div id="err-name" class="ferr">Name required</div>
+        </div>
+
+        <div class="form-field">
+          <input id="f-email" type="email" placeholder=" " />
+          <label>Email</label>
+          <div class="fb-line"></div>
+          <div id="err-email" class="ferr">Valid email required</div>
+        </div>
+
+        <div class="form-field">
+          <textarea id="f-msg" placeholder=" "></textarea>
+          <label>Message</label>
+          <div class="fb-line"></div>
+          <div id="err-msg" class="ferr">Message required</div>
+        </div>
+
+        <button class="btn btn-primary btn-full">
+          <span class="btn-glow"></span>
+          <span id="submitText">Send Message</span>
+        </button>
+
+        <div id="form-success" class="form-success" style="display:none;">
+          Message sent successfully!
+        </div>
+
+      </form>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">VMR</div>
+    <p>© 2026 Vishnu Mahendra Reddy L</p>
+
+    <div class="footer-socials">
+      <a href="https://github.com/Vishnu8088">GitHub</a>
+      <a href="https://www.linkedin.com/in/vishnu-mahendra-reddy-l-34413427a">LinkedIn</a>
+      <a href="https://www.instagram.com/_mr_majnu_081?igsh=MW4yNjBwNThxY3N2Yw==">Instagram</a>
+    </div>
+  </div>
+</footer>
+
+<!-- ================= JS ================= -->
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
